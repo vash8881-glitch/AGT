@@ -1,0 +1,105 @@
+{
+  "project_name": "SabziMandi Fresh - Indian Vegetables & Grocery E-Commerce",
+  "archetype": "ORGANIC & EARTHY / FRESH FARM PRO",
+  "theme_strategy": {
+    "default_mode": "light",
+    "mode_toggle_supported": true,
+    "primary_emotion": "Farm-fresh purity, vibrant Indian market energy, trust, and effortless quick commerce efficiency",
+    "target_audience": "Indian household shoppers, urban families, health-conscious buyers, and local restaurant buyers needing daily fresh delivery"
+  },
+  "typography": {
+    "heading_font": "Outfit, sans-serif",
+    "body_font": "Plus Jakarta Sans, sans-serif",
+    "mono_font": "JetBrains Mono, monospace",
+    "accent_font": "Cabinet Grotesk, sans-serif",
+    "google_fonts_embed": "https://fonts.googleapis.com/css2?family=Cabinet+Grotesk:wght@700;800;900&family=Outfit:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap",
+    "scale": {
+      "h1": "text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight leading-tight",
+      "h2": "text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight",
+      "h3": "text-xl sm:text-2xl font-semibold tracking-tight",
+      "h4": "text-lg sm:text-xl font-semibold",
+      "body": "text-sm sm:text-base leading-relaxed",
+      "caption": "text-xs font-medium tracking-wide text-emerald-800/70 dark:text-emerald-300/70"
+    }
+  },
+  "colors": {
+    "palette": {
+      "emerald_primary": "#15803D",
+      "emerald_deep": "#064E3B",
+      "emerald_light": "#DCFCE7",
+      "solar_amber": "#F59E0B",
+      "chili_red": "#DC2626",
+      "mint_bg": "#F0FDF4",
+      "warm_sand": "#FAF5EF",
+      "slate_dark": "#0F172A",
+      "card_light": "#FFFFFF",
+      "border_soft": "#E2E8F0"
+    },
+    "semantic": {
+      "background": "bg-[#FAF5EF] dark:bg-[#0B130E]",
+      "surface_card": "bg-white dark:bg-[#122017] border border-emerald-900/10 dark:border-emerald-500/20 shadow-sm hover:shadow-md transition-all",
+      "primary_button": "bg-emerald-700 hover:bg-emerald-800 active:bg-emerald-900 text-white font-semibold rounded-xl shadow-sm hover:shadow-emerald-900/20 transition-all",
+      "badge_fresh": "bg-emerald-100 text-emerald-900 dark:bg-emerald-950 dark:text-emerald-300 border border-emerald-300/50 font-medium px-2.5 py-0.5 rounded-full text-xs",
+      "badge_offer": "bg-amber-500 text-white font-bold px-2 py-0.5 rounded-md text-xs shadow-sm animate-pulse",
+      "badge_organic": "bg-teal-700 text-white font-semibold px-2.5 py-0.5 rounded-full text-xs"
+    }
+  },
+  "layout_and_spacing": {
+    "container_max_width": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "section_gap": "py-8 sm:py-12 md:py-16",
+    "bento_grid_marketing": "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6",
+    "product_grid": "grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 sm:gap-5",
+    "dashboard_grid": "grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6",
+    "border_padding_rule": "Containers with custom borders must have at least p-4 to p-6 padding to prevent content text collision.",
+    "mobile_first_bottom_nav": "Fixed bottom bar on mobile (<768px) with Home, Categories, Offers, Cart (with badge), and Account links."
+  },
+  "key_components_to_build": [
+    "HeaderNavigation: Multi-language switcher (EN/HI/KN/MR), Location Pincode Selector, Search bar with instant autocomplete, Wishlist & Cart drawer trigger",
+    "HeroBannerCarousel: High-impact fresh vegetable promotions, subscription plans, today's deals",
+    "CategoryBar: Horizontal scrollable pill list of categories (Leafy Greens, Fresh Vegetables, Exotic Fruits, Organic Combos, Indian Spices & Staples, Dairy & Bread)",
+    "ProductCard: Image with zoom hover, organic badge, weight variant selector (250g, 500g, 1kg), price breakdown (MRP vs Offer Price), direct Add button with counter (+/-)",
+    "TodayOffersSection: Countdown timer banner with flash sale prices and bundle offers",
+    "CartDrawerAndPage: Subtotal, Delivery Fee threshold progress bar ('Add ₹149 more for FREE delivery'), Coupon applying, Tip for Delivery Partner",
+    "CheckoutFlowModal: Multi-step with Address Selection (Saved / New), Slot Picker (Morning 6-9 AM, Evening 5-8 PM), Payment Mode (UPI, Razorpay, COD, Wallet)",
+    "OTPAuthModal: Phone number input with auto OTP simulation, login status sync with localStorage",
+    "WhatsAppOrderButton: Floating action button generating formatted WhatsApp purchase message to seller",
+    "CustomerAccountDashboard: Recent orders, Order tracking step indicator (Placed -> Packed -> Out for Delivery -> Delivered), Saved Addresses, Loyalty Wallet, Subscription Manager",
+    "InvoicePDFModal: Printable invoice view with GST details, itemized breakdown, and store header",
+    "AdminDashboard: Daily sales overview charts (Recharts), Low stock alerts table, Product CRUD modal, Order status modifier, Coupon manager, Customer list"
+  ],
+  "image_urls": {
+    "hero_banner_vegetables": "https://images.unsplash.com/photo-1631021967261-c57ee4dfa9bb?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTJ8MHwxfHNlYXJjaHwzfHxmcmVzaCUyMG9yZ2FuaWMlMjB2ZWdldGFibGVzJTIwYmFza2V0JTIwbWFya2V0fGVufDB8fHx8MTc4NzUwNDQyNHww&ixlib=rb-4.1.0&q=85",
+    "fresh_produce_basket": "https://images.pexels.com/photos/37321079/pexels-photo-37321079.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "fresh_fruits_assortment": "https://images.unsplash.com/photo-1546548970-71785318a17b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NjZ8MHwxfHNlYXJjaHwzfHxmcmVzaCUyMGZydWl0cyUyMGNvbG9yZnVsJTIwYXNzb3J0bWVudHxlbnwwfHx8fDE3ODc1MDQ0MjR8MA&ixlib=rb-4.1.0&q=85",
+    "exotic_fruits_basket": "https://images.unsplash.com/photo-1619566636858-adf3ef46400b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NjZ8MHwxfHNlYXJjaHwyfHxmcmVzaCUyMGZydWl0cyUyMGNvbG9yZnVsJTIwYXNzb3J0bWVudHxlbnwwfHx8fDE3ODc1MDQ0MjR8MA&ixlib=rb-4.1.0&q=85",
+    "indian_spices_pulses": "https://images.unsplash.com/photo-1635355995448-77b02d33621d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNDR8MHwxfHNlYXJjaHwzfHxpbmRpYW4lMjBzcGljZXMlMjBwdWxzZXMlMjBncm9jZXJ5JTIwZmFybSUyMGZyZXNofGVufDB8fHx8MTc4NzUwNDQyNHww&ixlib=rb-4.1.0&q=85",
+    "market_grains_spices": "https://images.pexels.com/photos/1393382/pexels-photo-1393382.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  "micro_interactions": {
+    "cart_add_pulse": "Scale effect on click with spring animation using framer-motion",
+    "toast_notifications": "Use Sonner for toast notifications (Item added to cart, coupon applied, OTP sent, order placed)",
+    "skeleton_loaders": "Shimmer skeleton blocks for product grids and order list during fetch states",
+    "sticky_cart_bar": "Floats smoothly on mobile screens with item count and subtotal amount"
+  },
+  "data_testid_instructions": {
+    "rule": "All primary inputs, action buttons, links, modal toggles, and price displays MUST include a data-testid attribute in kebab-case.",
+    "examples": [
+      "data-testid=\"nav-search-input\"",
+      "data-testid=\"language-select-dropdown\"",
+      "data-testid=\"category-pill-vegetables\"",
+      "data-testid=\"product-card-add-btn-101\"",
+      "data-testid=\"cart-drawer-trigger\"",
+      "data-testid=\"checkout-proceed-btn\"",
+      "data-testid=\"whatsapp-order-btn\"",
+      "data-testid=\"otp-send-btn\"",
+      "data-testid=\"admin-add-product-btn\""
+    ]
+  },
+  "instructions_to_main_agent": [
+    "Ensure standard HTML/JSX components are decorated with Tailwind utility classes matching the fresh organic green theme.",
+    "Use lucide-react icons for UI elements (ShoppingCart, Search, MapPin, Phone, ShieldCheck, Tag, RefreshCw, Truck, Heart, User, Filter, ChevronDown).",
+    "Implement language dictionary for EN (English), HI (Hindi / हिंदी), KN (Kannada / ಕನ್ನಡ), and MR (Marathi / मराठी) covering nav items, labels, and checkout prompts.",
+    "Build both full Customer E-Commerce Storefront and Admin Portal seamlessly accessible via header switch/route.",
+    "Create robust sample datasets for initial load so the app is instantly rich with authentic Indian vegetables (Potaot/Aloo, Tomato/Tamatar, Onion/Pyaz, Spinach/Palak, Cauliflower/Gobi, Mango/Aam, Spices/Masala, Combos/Family Basket)."
+  ]
+}
